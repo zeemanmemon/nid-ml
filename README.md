@@ -59,7 +59,7 @@ Trained on 125,973 connections, evaluated on 18,794 unseen connections.
 ### SHAP — Feature Importance
 ![SHAP Summary](shap_summary.png)
 
-Top drivers: `src_bytes`, `flag`, `dst_host_serror_rate`, `same_srv_rate`. High SYN error rates and unusual byte counts are the strongest signals of malicious traffic — consistent with what a SOC analyst would look for manually.
+Top drivers: `src_bytes`, `flag`, `dst_host_serror_rate`, `same_srv_rate`. High SYN error rates and unusual byte counts are the strongest signals of malicious traffic, consistent with what a SOC analyst would look for manually.
 
 ---
 
@@ -110,4 +110,4 @@ The full training pipeline (data loading, preprocessing, model training, evaluat
 
 ## Dataset
 
-[NSL-KDD](https://www.unb.ca/cic/datasets/nsl.html) — An improved version of the KDD Cup 1999 dataset, widely used for network intrusion detection research.
+[NSL-KDD](https://www.unb.ca/cic/datasets/nsl.html) - An improved version of the KDD Cup 1999 dataset, widely used for network intrusion detection research.
