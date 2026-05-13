@@ -1,6 +1,6 @@
 # Network Intrusion Detection with Machine Learning
 
-A machine learning system that classifies network traffic into attack families and maps detections to MITRE ATT&CK techniques. Built on the NSL-KDD dataset and deployed as a REST API.
+A Random Forest classifier that detects network intrusions on NSL-KDD and maps predictions to MITRE ATT&CK techniques, served via FastAPI.
 
 ---
 
@@ -59,7 +59,7 @@ Trained on 125,973 connections, evaluated on 18,794 unseen connections.
 ### SHAP — Feature Importance
 ![SHAP Summary](shap_summary.png)
 
-Top drivers: `src_bytes`, `flag`, `dst_host_serror_rate`, `same_srv_rate`. High SYN error rates and unusual byte counts are the strongest signals of malicious traffic, consistent with what a SOC analyst would look for manually.
+Top drivers: src_bytes, flag, dst_host_serror_rate, same_srv_rate. Error rates and byte counts are the clearest indicators, consistent with manual SOC analysis.
 
 ---
 
