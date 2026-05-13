@@ -100,11 +100,11 @@ The full training pipeline (data loading, preprocessing, model training, evaluat
 ## Tech Stack
 
 - **Python 3.12**
-- **scikit-learn** — Random Forest, preprocessing, evaluation
-- **pandas** — data manipulation
-- **SHAP** — model explainability
-- **FastAPI + Uvicorn** — REST API
-- **NSL-KDD dataset** — benchmark intrusion detection dataset
+- **scikit-learn** - Random Forest, preprocessing, evaluation
+- **pandas** - data manipulation
+- **SHAP** - model explainability
+- **FastAPI + Uvicorn** - REST API
+- **NSL-KDD dataset** - benchmark intrusion detection dataset
 
 ---
 
