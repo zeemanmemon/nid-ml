@@ -51,7 +51,7 @@ Trained on 125,973 connections, evaluated on 18,794 unseen connections.
 | R2L    | 0.99      | 0.06   | 0.11 |
 | U2R    | 0.50      | 0.03   | 0.05 |
 
-**DoS and Probe detection is near-perfect. R2L and U2R are intentionally hard — these attack families are rare by nature and notoriously difficult to detect on this benchmark. Every published paper on NSL-KDD shows the same pattern.**
+**DoS and Probe detection is near-perfect. R2L and U2R are intentionally hard, these attack families are rare by nature and notoriously difficult to detect on this benchmark.**
 
 ### Confusion Matrix
 ![Confusion Matrix](confusion_matrix.png)
@@ -79,7 +79,7 @@ nid-ml/
 ## Run Locally
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/nid-ml
+git clone https://github.com/zeemanmemon/nid-ml
 cd nid-ml
 pip install -r requirements.txt
 python -m uvicorn main:app --reload
@@ -93,7 +93,7 @@ API docs available at `http://127.0.0.1:8000/docs`
 
 The full training pipeline (data loading, preprocessing, model training, evaluation, SHAP) is available as a Google Colab notebook:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](YOUR_COLAB_LINK_HERE)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1fCsNk_gROYaIQkokw6PN0YBi0OLxkPTY?usp=sharing)
 
 ---
 
